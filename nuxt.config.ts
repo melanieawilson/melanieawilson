@@ -29,5 +29,9 @@ export default defineNuxtConfig({
   },
   compatibilityDate: '2025-02-19',
 
+  nitro: {
+    preset: 'vercel-static',
+  },
+
   vite: { plugins: [tailwindcss()] },
 })
