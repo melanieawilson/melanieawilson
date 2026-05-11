@@ -11,7 +11,7 @@ const appConfig = useAppConfig();
     <!-- Navigation -->
     <div class="text-gray-700 dark:text-gray-200">
       <NuxtLink
-        v-for="link in navigation"
+        v-for="link in navigation?.filter(l => !l.path.startsWith('/blog'))"
         :key="link.path" class="mr-6"
         :to="link.path"
         active-class="font-bold"

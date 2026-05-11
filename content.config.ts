@@ -6,7 +6,10 @@ export default defineContentConfig({
       type: 'page',
       source: '**',
       schema: z.object({
-        layout: z.string(),
+        layout: z.string().optional(),
+        date: z.string().optional(),
+        tags: z.array(z.string()).optional(),
+        category: z.string().optional(),
       }),
     }),
   },
