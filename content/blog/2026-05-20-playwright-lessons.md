@@ -1,5 +1,5 @@
 ---
-title: Getting Playwright to Play Nice with Nuxt, shadcn-vue, and Vercel CI
+title: Getting Playwright to Play Nice with Nuxt and Vercel CI
 description: A layer-by-layer account of the SSR hydration, networkidle, and deployment protection problems I hit writing end-to-end tests for ReserveIt — and how I fixed them.
 date: 2026-05-20
 category: tech
